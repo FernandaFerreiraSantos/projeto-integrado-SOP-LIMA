@@ -1,0 +1,55 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap');
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button, .hare__content .content {
+    border: none;
+    transition: transform .3s;
+}
+
+button:hover, .hare__content .content:hover {
+    transform: scale(1.07);
+}
+
+h1, h2, h4, h5, h6, span, p, a {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #e30613;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+    color: #A6AE9D;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

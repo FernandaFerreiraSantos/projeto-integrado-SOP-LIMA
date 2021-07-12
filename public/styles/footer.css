@@ -1,0 +1,14 @@
+footer {
+    background-color: #e30613;
+    padding: 20px 40px;
+    user-select: none;
+}
+
+footer p {
+    color: white;
+}
+
+footer span {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: bold;
+}
