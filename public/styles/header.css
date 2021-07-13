@@ -2,7 +2,7 @@ header {
     height: 12.5vh;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 2.5px 10%;
     justify-content: space-between;
     background: white;
     font-family: 'Open Sans', sans-serif; 
@@ -13,14 +13,15 @@ header {
 
 header .fa-bars {
     cursor: pointer;
-    color: #2f4858;
+    color: #0074EE;
     display: none;
 }
 
 header > img, header > button {
-    height: 55%;
+    height: 52.5%;
     width: auto;
 }
+
 
 header nav > ul {
     display: flex;
@@ -29,7 +30,7 @@ header nav > ul {
 
 header nav > ul li a {
     /* color: #006699; */
-    color: #2f4858;
+    color: #1D394C;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -39,8 +40,6 @@ header nav > ul li a:hover {
     color: #e30613;
     transition: 0.3s;
 }
-
-
 
 header > button {
     width: 150px;

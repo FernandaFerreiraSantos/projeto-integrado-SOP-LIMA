@@ -12,3 +12,13 @@ footer span {
     font-family: 'Open Sans', sans-serif; 
     font-weight: bold;
 }
+
+footer {
+    max-width: 1200px;
+    /* max-width: 15000px; */
+    margin: 0 auto;
+    padding: 5vh 0 ;
+    border-radius: 50px 50px 0 0;
+    /* letter-spacing: 5px; */
+    line-height: 200%;
+}
